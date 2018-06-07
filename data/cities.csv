@@ -1,0 +1,21 @@
+City,Lat,Long,Traffic,traftext,Airport,swing,lean,lean2,Airport_Name,j_growth,j_g_p,tech_growth,t_g_p,rent,rentdisp,tax_in,t_in_num,diverse,cds,happy,xfax
+"Atlanta, Georgia",33.749,84.388,4,4th worst in N. America,1,,Conservative,,Hartsfield-Jackson Atlanta International Airport,0.085319,8.53%,0.064,6.40%,1010,"$1,010",$1 billion,1,,195th,1,
+"Austin, Texas",30.2672,97.7431,14,14th worst in N. America,1,,Conservative,,Austin-Bergstrom International Airport,0.24,24.00%,0.161,16.10%,1140,"$1,140",no offered incentive,0,,73rd,1,1
+"Boston, Massachussetts ",42.3601,71.0589,7,7th worst in N. America,1,,Liberal,1,Boston-Logan International Airport,0.123107,12.31%,0.052,5.20%,1690,"$1,690",no offered incentive,0,1,19th,,
+"Chicago, Illinois",41.8781,87.6298,8,8th worst in N. America,1,,Liberal,1,"O'Hare International Aiport, Midway International Airport",0.012785,1.28%,0.058,5.80%,1100,"$1,100",$1.7 billion,1,1,36th,,
+"Columbus, Ohio",39.9612,82.9988,55,55th worst in N. America,,1,Swing,,None that meet criteria,0.07309,7.31%,,,740,$740,$2.3 billion,1,,186th,,
+"Dallas, Texas",32.7767,96.797,10,10th worst in N. America,1,,Conservative,,Dallas/Fort-Worth International Airport,0.115415,11.54%,0.09,9.00%,890,$890,no offered incentive,0,1,43rd,1,1
+"Denver, Colorado",39.7392,104.9903,21,21st worst in N. America,1,,Liberal,1,Denver International Airport,0.117791,11.78%,0.063,6.30%,1070,"$1,070",$50-100 million,0,,85th,1,
+"Indianapolis, Indiana",39.7684,86.1581,87,87th worst in N. America,1,1,Swing,,Indianapolis International Airport,0.019423,1.94%,0.139,13.90%,680,$680,no offered incentive,0,,196th,,
+"Los Angeles, California",34.0522,118.2437,1,The worst in N. America,1,,Liberal,1,Los Angeles International Airport,0.03407,3.41%,0.065,6.50%,1350,"$1,350",$1 billion,1,1,20th,,1
+"Miami, Florida",25.7617,80.1918,5,5th worst in N. America,1,1,Swing,,Miami International Airport,0.090996,9.10%,0.054,5.40%,1060,"$1,060",no offered incentive,0,,182nd,,1
+"Montgomery County, Maryland",39.1547,77.2405,,,,,Liberal,1,None that meet criteria,0.009969,1.00%,,,1561,"$1,561",$8.5 billion,1,,n/a,,
+N. Virginia,38.9805,77.2405,,,1,1,Swing,,None that meet criteria,,,,,n/a,,no offered incentive,0,,n/a,,
+"Nashville, Tennessee",36.1627,86.7816,27,27th worst in N. America,,0,Conservative,,None that meet criteria,0.00000238,0.00%,0.067,6.70%,920,$920,no offered incentive,0,,147th,,
+"New York City, New York",40.7128,74.006,2,2nd worst in N. America,1,,Liberal,1,"John F. Kennedy International Airport, LaGuardia International Airport",0.02404,2.40%,0.061,6.10%,2090,"$2,090",no offered incentive,0,1,6th,,
+"Newark, New Jersey",40.7357,74.1724,,,1,,Liberal,1,Newark Liberty International Airport,-0.06447,-6.45%,0.061,6.10%,1161,"$1,161",$7 billion,1,,47th,,
+"Philadelphia, Pennsylvania",39.9526,75.1652,18,18th worst in N. America,1,1,Swing,,Philadelphia International Airport,0.04938,4.94%,,,970,$970,$2-3 billion,1,,99th,,
+"Pittsburgh, Pennsylvania",40.4406,79.9959,29,29th worst in N. America,1,1,Swing,,Pittsburgh International Airport,0.00623,0.62%,0.09,9.00%,740,$740,no offered incentive,0,,267th,1,
+"Raleigh, North Carolina",35.7796,78.6382,83,83rd worst in N. America,1,1,Swing,,Raleigh-Durham International Airport,0.18207,18.21%,0.037,3.70%,962,$962,$50 million,0,,128th,1,
+"Toronto, Canada",43.6532,79.3832,15,15th worst in N. America,1,,n/a,,Toronto Pearson International Airport,,,,,1300,"$1,300",no offered incentive,0,,n/a,,
+Washington D.C.,38.9072,77.0369,6,6th worst in N. America,1,,Liberal,1,"Reagan National Airport, Dulles International Airport",0.115801,11.58%,0.019,1.90%,1340,"$1,340",no offered incentive,0,,106th,,

@@ -1,0 +1,111 @@
+@import "seattletimes";
+
+.intro {
+  h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .splash {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+leaflet-map:not([ready]) {
+  opacity: 0;
+}
+
+.over {
+  background: white;
+  position: relative;
+  z-index: 99;
+  padding: 16px;
+  clear: both;
+}
+
+.constrained {
+  max-width: 800px;
+  margin: auto;
+}
+
+.map-item {
+  //float: right;
+  width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 6px 6px 6px fade(black, 10%);
+  margin-bottom: 80vh;
+  clear: both;
+  z-index: 999;
+  position: relative;
+
+  &:first-child{
+    margin-top: 30vh;
+  }
+
+  &.left {
+    float: left;
+  }
+  @media @mobile {
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+.map-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  @media @mobile{
+    // height: 50%;
+    // z-index: 999999;
+  }
+
+  leaflet-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+  //  @media @mobile{
+
+  }
+
+  .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.city-marker {
+
+  .dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: @df-dark-gray;
+    border-radius: 50%;
+    transition: transform .8s ease;
+  }
+
+  &.highlight .dot {
+    background: orange;
+    transform: scale(2);
+  }
+  &.negative .dot {
+    background: red;
+    transform: scale(2);
+  }
+  }

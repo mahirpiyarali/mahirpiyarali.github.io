@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <section class="intro over">
+      <div class="titles"</div>
+      <h1><%= archieml.story.title %></h1>
+      <img src="./assets/p1.jpg" class="splash">
+      <figcaption class="article-caption">
+        <span class="capt" style="font-family: Helvetica Neue,Helvetica,sans-serif; font-size: 15px; font-style: italic; color: #70757c; line-height: 21px">
+        Seattle's South Lake Union has seen the effects of Amazon's headquarters:
+        new buildings adjacent to massive construction zones. Wherever Amazon decided to
+      set their HQ2 will likely see similar changes throughout their city.
+      </span>
+    </figcaption>
+      <div class="byline">
+        By <span class="name">Mahir Piyarali</span>
+        <div class="date">Originally published June 7, 2018</div>
+
+      </div>
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.story.starter) %>
+      </div>
+    </section>
+
+
+    <div class="constrained">
+
+    <% archieml.story.sections.forEach(function(section) { %>
+
+        <section class="map-item <%= section.alignment %>" data-filter="<%= section.filter %>" data-highlight="<%= section.highlight %>">
+          <h2><%= section.title %></h2>
+          <%= t.renderMarkdown(section.text || "") %>
+        </section>
+
+
+    <% }) %>
+
+      <section class="map-item" data-unlock data-filter="none">
+        <h2>Explore for yourself</h2>
+        <button class="unlock"> Lock or Unlock</button>
+        Click on the button to unlock the map for zooming and scrolling
+      </section>
+    </div>
+    <div class="map-container">
+      <leaflet-map>
+        <map-options>
+{ "scrollWheelZoom": false }
+        </map-options>
+        <tile-layer layer="cartoPositron"></tile-layer>
+      </leaflet-map>
+      <div class="cover"></div>
+    </div>
+
+    <section class="outro over">
+
+      <div class="credit" style=" font-family: Helvetica Neue,Helvetica,sans-serif;font-size: 15px; color: #70757c; text-align: right; text-transform: uppercase; font-style: italic">
+        Interactive Graphics Help from Thomas Wilburn
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.story.closer) %>
+      </div>
+    </section>
+
+    <script>
+window.cityData = <%= JSON.stringify(csv.cities) %>;
+    </script>
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

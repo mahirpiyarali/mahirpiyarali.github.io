@@ -1,0 +1,210 @@
+title: Where's Amazon Heading Next?
+
+starter:
+
+Amazon has decided to make their selection process for their HQ2 public,
+meaning that anyone and everyone has access to the [criteria they're looking
+for](https://images-na.ssl-images-amazon.com/images/G/01/Anything/test/images/usa/RFP_3._V516043504_.pdf)
+in their next hub. Recently, they narrowed their search down to 20 final candidate cities, and are expected to make their final
+decision soon, with some experts predicting a decision within a month or so.
+This interactive map will walk you through some of Amazon's main criteria, and
+which cities do (and don't) fit the bill.
+
+:end
+
+closer:
+
+Though Amazon has yet to declare the date of their announcement, analysts report
+that Amazon has visited all 20 candidate cities and is expected to make an
+announcement soon. That being said, there are still many things that are left unanswered.
+
+
+Sure, we know the criteria that Amazon *says* they'll take into consideration.
+But is there going to be any more that gets factored into the decision? Austin is the headquarters
+of Whole Foods, the grocery giant that was recently acquired by Amazon. LA is the only west-coast city,
+and it seems like Amazon wants to reach out geographically. Speaking of geography, Toronto is
+the only city out of the United States and, with 19 other cities all in the US, perhaps
+Amazon is not looking at going international.
+
+
+Also, though politics may fit in with Amazon's RFP on "cultural and community fit", in the map we only looked at the cities that truly fit
+in with Amazon's liberal backings. However, Dallas is the most "red" city out of the 20 candidates,
+meaning that there may be more divisions brought into the greater Dallas area with an
+extremely blue company coming into an already politically divided region. Lastly, perhaps (and hopefully)
+Amazon is considering the ability for the candidate city to last long term. One of the direct results
+of climate change has been that Miami is starting to progressively go underwater. In 10 years from now,
+we may not know the status of infrastructure there. In all, there may be more factors at hand
+beyond what's listed in Amazon's RFP.
+
+
+Amazon has told us what they say they're looking for, and by looking at all the data we
+see that cities like Austin, Atlanta and Denver seem to meet all the criteria. But, will Amazon
+make their decision solely on this data? Or will there be other factors that only the top
+execs know about? Only time will tell.
+
+
+Want more information? Click [here](https://reflect.github.io/amazon-hq2-proposals/)
+to access all publicly available HQ2 proposals from candidate cities, or [here](https://www.seattletimes.com/business/amazon/100-plus-contenders-imagine-hosting-amazons-hq2/)
+to read a Seattle Times piece from last year with the overarching data from all candidate cities.
+:end
+
+[sections]
+
+title: Introduction
+filter: none
+text:
+
+Here are all 20 cities. As you scroll down this article, various criteria from
+Amazon will show up, and the map will pan and zoom to highlight the cities that
+match. At any point you
+can click on any of the points on the map and all of the data for that city will
+pop up. At the bottom of the page is a button that can unlock the map to allow
+for you to explore, click and zoom around the page.
+
+
+:end
+
+title: KEY
+alignment: right
+filter: key
+text:
+
+* Orange: city that *does* meet criteria
+* Red: city that *negatively* meets criteria
+* Black: city that *doesn't* meet criteria
+:end
+
+
+
+title: Overall Job Growth
+alignment: right
+filter: j_growth
+text:
+
+Amazon, in a document full of guidance for candidate cities, states that one
+of their main requirements in a city is a "stable and consistent business climate for
+growth." Looking at overall job growth, we can see that a number of cities
+stand out with more than 5% increase over the last 10 years.
+
+\*Source: Bureau of Labor Statistics*
+
+:end
+
+title: Tech Sector Job Growth
+alignment: left
+filter: t_growth
+text:
+
+Of course, it's not just any kind of job that Amazon is looking for. Taking
+tech jobs into account, we can cross reference the cities with an overall job
+growth of 5% in the last 10 years with cities that have a tech sector job growth
+of more than 6% in the last 5 years. Adding tech jobs to the equation reduces us
+down to only four cities.
+
+\*Source: Brookings Institute*
+:end
+
+title: Incentives
+alignment: left
+filter: incentives
+text:
+
+Amazon also says that various incentives are
+also going to be crucial in the selection process. These are all the cities that
+have offered incentives of at least $1 billion.
+:end
+
+
+title: Commuting, Airports
+filter: airports
+highlight: negative
+text:
+
+One of the main decision factors listed by Amazon is the potential site's
+access to airports: "an international airport with daily direct
+flights to Seattle, New York, San Francisco/Bay Area, and Washington, D.C. is
+also an important consideration." We see that all but these three cities have
+an airport that can meet this requirement.
+
+:end
+
+title: Commuting, Congestion
+filter: traffic
+highlight: negative
+text:
+
+But what about the logistics of commuting *within* the city? Amazon says that
+they'll need to be able to shuffle around 50,000+ employees every day. Based on
+North American traffic congestion ratings, we see that 8 of the 20 candidate
+
+
+\*Source: INRIX*
+
+:end
+
+
+title: Cultural Community Fit
+filter: diverse
+text: In Amazon's criteria document, they mention the importance of a "compatible cultural
+and community environment for long term success". Emphasizing a "diverse population", we highlight
+the 5 out of 20 cities with the highest cultural diversity.
+
+\*Source: WalletHub*
+:end
+
+
+title: Political Fit
+filter: lib
+text: Feeding off of Cultural Community Fit is the political climate of the candidate cities.
+Amazon, being based in Seattle, is an extremely liberal company. Meaning that perhaps a city in a
+liberal state would meet their desire for a "local government structure and elected officials eager and willing to
+work with the company". We highlight the cities that are in a significantly liberal state.
+:end
+
+title: Swing States
+filter: swing
+alignment: left
+text:
+
+Diving deeper into politics, we want to look at the influence that an additional 50,000 voters could
+have on state politics. A recent article by [The Atlantic](https://www.theatlantic.com/politics/archive/2018/02/amazon-headquarters-politics/553394/) brought to light
+the potential of Amazon's new base influencing the politics of an entire state,
+and by extension, potentially flipping a red state blue. States like Ohio,
+Pennsylvania and North Carolina are all considered swing states. Highlighted are all of the candidate cities that are in "swing" states.
+:end
+
+title: Quality of Life
+filter: none
+text:
+
+Amazon, in their criteria document, say that they want to "invest in a community where our employees will enjoy living, recreational opportunities, educational
+opportunities, and an overall high quality of life." Let's narrow it down to
+two major components: cost of living and various amenities. These two
+components are relatively proportional, with the latter generally leading to
+the former. That being said, we look for cities that can strike a balance
+between the two.
+
+:end
+
+title: Cost of Living
+filter: rent
+text:
+
+Cities like Atlanta, Miami, Austin, Denver and Chicago all have
+median rent prices below $1150 per month, making them relatively cheap for the
+cost of living. However, even though Washington D.C. is on the more expensive
+side, the much more affordable Baltimore is a short train ride away.
+
+\*Source: Apartment List Rent Data*
+
+:end
+
+title: Livability
+filter: happy
+text: For whichever city Amazon decides on, it's workers will not only be working in the city,
+but most likely will be living within those city limits. We also want to take a look at
+the livablity and happiness of all cities. We highlight the 6 out of 20 cities that have
+both relatively affordable housing and are in the top 10 of happiest cities out of the 20 total.
+
+\*Source: WalletHub*
+:end
